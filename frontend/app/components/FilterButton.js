@@ -5,7 +5,7 @@ import axios from "axios";
 const FilterButton = ({ filterType, setFilteredUsers }) => {
   const handleFilter = () => {
     axios
-      .get(`http://localhost:8000/users/${filterType}`)
+      .get(`https://assignment-4fpq.onrender.com/users/${filterType}`)
       .then((response) => {
         setFilteredUsers(response.data);
         setAverageIncome(response.data.map((city) => city.averageIncome));
