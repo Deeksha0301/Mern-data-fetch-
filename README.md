@@ -1,4 +1,4 @@
-﻿# Assignment
+﻿# Data Fetching using MERN and Next.js
 
 
 
